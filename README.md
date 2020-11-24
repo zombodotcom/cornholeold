@@ -1,4 +1,18 @@
 # cornholeold
+ledboard2.ino has more done to it. these currently aren't fully functional and were a work in progress.
+
+Esp32's connect to eachother.
+start sending messages to eachother about the team scores.
+uses a button interrupt as a task to add or remove points on the teams depending on what buttons are pressed
+
+4 buttons
+team1 + and - score
+team2 + and - score 
+
+both esp32's are sending the team scores constantly and updating with eachother. 
+
+fastled is used to increment the LED strips with lights depending on the score count. 
+This could also be done with a 7 segment display if someone wants to, but just putting leds on the side and numbers should be fine.
 
 These are my old sketches for the LED cornhole using the esp-now protocol.
 
